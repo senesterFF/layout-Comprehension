@@ -1,0 +1,66 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #db3434; /* A bright blue color */
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #2ecc71; /* A green color */
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Style the main content area */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-column, .right-column {
+    flex-basis: calc(50% - 10px);
+    background-color: #f1c40f; /* A bright yellow color */
+    padding: 10px;
+    border: 1px solid #e67e22; /* A darker orange color */
+    text-align: center;
+}
+
+.left-column img,
+.right-column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #34495e; /* A dark blue color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
